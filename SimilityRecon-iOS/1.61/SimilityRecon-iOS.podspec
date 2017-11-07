@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Vendored", :text => "Paid License" }
   s.author       = { "Simility Inc." => "contact@simility.com" }
   s.platform     = :ios
-  s.platform     = :ios, "6.0"
+  s.platform     = :ios, "8.0"
 
   s.source       = { :http => "https://storage.googleapis.com/simility-beacon-bins/ios/ios_recon_v1.61.zip" }
   s.source_files  = "ios_recon_v1.61"
