@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "8.0"
 
-  s.source       = { :http => "https://github.com/OfferUp/SimilityRecon-iOS-Specs/releases/download/v1.614/ios_recon_v1.614_arm64_sim.zip" }
+  s.source       = { :http => "https://github.com/OfferUp/SimilityRecon-iOS-Specs/releases/download/v1.614/ios_recon_v1.614.zip" }
   s.source_files  = "ios_recon_v1.614"
   s.public_header_files = "ios_recon_v1.614/SimilityRecon.h"
   s.ios.vendored_library = "ios_recon_v1.614/libSimilityRecon.a"
