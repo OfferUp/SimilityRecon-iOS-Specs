@@ -82,10 +82,13 @@ lipo -create libSimilityRecon-armv7.a libSimilityRecon-armv7s.a libSimilityRecon
 lipo -info libSimilityRecon.a
 ```
 
-10. Create a new zip file with the new archive file
+10. Create a new zip file with the new folder with archive file and header file inside it
 
 ```bash
-zip -r ios_recon_v1.614_arm64_sim.zip libSimilityRecon.a SimilityRecon.h
+mkdir ios_recon_v1.614
+mv libSimilityRecon.a ios_recon_v1.614/
+mv SimilityRecon.h ios_recon_v1.614/
+zip -r ios_recon_v1.614_arm64_sim.zip ios_recon_v1.614
 ```
 
 11. Cleanup
